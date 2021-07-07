@@ -174,26 +174,58 @@ body {
   color: dodgerblue;
 }
 @media screen and (max-width:576px) {
-  
-  .text-columns {
-    columns: 1;
-  }
+
   .flex-container,
   .footer {
     flex-direction: column;
     flex-wrap: wrap;
   }
   
-  .small-section {
-    width: 100%;
-  }
+  
   .card {
     margin: 10px 0;
 } 
 }
 @media screen and (max-width:768px) {
 
+  
+  .title {
+    font-size: 2.5rem;
+   
+  }
+  .header-text,
+  .section,
+  .card {
+    font-size: 1.5rem;
+  }
+  
+  .card {
+    max-width: 400px;
+    margin: 20px;
+  }
+  .flex-container {
+    flex-direction: column;
+    
+  }
+  .small-section {
+    width: 100%;
+  }
+ 
+  .card-title {
+    font-size: 1.7rem;
+  }
+  .footer {
+    font-size: 1.2rem;
+
+  }
+}
+@media screen and (max-width:992px) {
   .text-columns {
     columns: 1;
   }
+  .header-text,
+  .section,
+  .card {
+    font-size: 1.2rem;
+  } 
 }
